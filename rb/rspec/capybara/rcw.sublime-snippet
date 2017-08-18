@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+within '${1:SELECTOR}' do
+  $0
+end]]></content>
+  <tabTrigger>rcw</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

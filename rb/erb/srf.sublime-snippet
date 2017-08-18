@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<%= section_wrap_full({
+  title: "${1:title}",
+  subtitle: "${2:subtitle}"
+}) do %>
+  $0
+<% end %>]]></content>
+  <tabTrigger>srf</tabTrigger>
+  <scope>text.html.ruby</scope>
+</snippet>

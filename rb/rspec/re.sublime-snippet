@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:SUBJECT}).${2:TO_OR_TO_NOT} ${3:PREDICATE}(${4:WHAT})$0]]></content>
+  <tabTrigger>re</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

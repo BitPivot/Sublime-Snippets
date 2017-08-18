@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+before(:${1:HOOK}) do |o|
+  $0
+end]]></content>
+  <tabTrigger>rfb</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

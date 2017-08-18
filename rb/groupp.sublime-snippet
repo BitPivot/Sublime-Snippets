@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+group :production do
+  $0
+end]]></content>
+  <tabTrigger>groupp</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

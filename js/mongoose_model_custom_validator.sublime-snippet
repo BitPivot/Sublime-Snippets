@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+s.path('${1:FIELD}').validate(function (template) {
+  return ${2:BOOLEAN};
+}, '${3:MESSAGE}');]]></content>
+  <tabTrigger>mongoose_model_custom_validator</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

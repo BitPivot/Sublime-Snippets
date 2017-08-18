@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+var ${1:MODULE} = (function(${3:SCOPED DEPENDENCIES}, m) {
+
+  var init = function(${4:INIT_ARGS}) {
+    $0
+  };
+
+  // public api
+  return {
+    init: init
+  };
+}(${2:INJECTED DEPENDENCIES}, ${1:MODULE} || {}));]]></content>
+  <tabTrigger>mod</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

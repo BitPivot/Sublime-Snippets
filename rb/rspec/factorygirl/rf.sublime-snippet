@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+FactoryGirl.define do
+  factory :${1:MODEL} do
+    ${2:ATTRIBUTE}
+
+    $0
+  end
+end]]></content>
+  <tabTrigger>rf</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

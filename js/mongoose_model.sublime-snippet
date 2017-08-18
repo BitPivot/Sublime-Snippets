@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var ID = Schema.Types.ObjectId;
+
+var s = new Schema({
+  ${2:FIELD_NAME}: ${3:FIELD_TYPE}$0
+
+  // // Belongs To
+  // _owner:  { type: ID, ref: 'Foo' }
+
+  // // Has Many
+  // _bars:   [{ type: ID, ref: 'Bar'}]
+});
+
+module.exports.${1:MODEL} = mongoose.model('${1:MODEL}', s);]]></content>
+  <tabTrigger>mongoose_model</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

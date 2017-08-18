@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+// Ensure your Schema contains...
+// updated_at: Date
+s.pre('save', function(next){
+  this.updated_at = new Date;
+  next();
+});]]></content>
+  <tabTrigger>mongoose_model_updated_at</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

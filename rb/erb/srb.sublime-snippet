@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+  <%= section_wrap_between(${1:class}) do %>
+    $0
+  <% end %>]]></content>
+  <tabTrigger>srb</tabTrigger>
+  <scope>text.html.ruby</scope>
+</snippet>

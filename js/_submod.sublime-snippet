@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+var ${1:MODULE} = (function(${4:SCOPED DEPEDENCIES}, m) {
+
+  var init = function(${5:INIT_ARGS}) {
+    $0
+  };
+
+  m.${2:SUBMODULE} = {
+    init: init
+  };
+
+  return m;
+}(${3:INJECTED DEPENDENCIES}, ${1:MODULE} || {}));]]></content>
+  <tabTrigger>submod</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

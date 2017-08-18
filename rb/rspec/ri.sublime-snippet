@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+it '${1:DOES WHAT}' do
+  $0
+end]]></content>
+  <tabTrigger>ri</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

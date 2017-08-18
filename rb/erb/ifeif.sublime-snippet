@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<% if ${1:condition} %>
+  $0
+<% elsif ${2:condition} %>
+
+<% end %>]]></content>
+  <tabTrigger>ifeif</tabTrigger>
+  <scope>text.html.ruby</scope>
+</snippet>

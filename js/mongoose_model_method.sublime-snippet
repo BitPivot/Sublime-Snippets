@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+s.methods.${1:METHOD} = function(${2:ARGS...}) {
+  $0
+};]]></content>
+  <tabTrigger>mongoose_model_method</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

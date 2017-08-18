@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+describe '${1:THING}' do
+  $0
+end]]></content>
+  <tabTrigger>rd</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

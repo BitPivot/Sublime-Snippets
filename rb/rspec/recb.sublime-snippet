@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+expect {
+  ${1:ACTION}
+}.to change {
+  ${2:SUBJECT}.${3:STATE}
+}.by(${4:OFFSET})$0]]></content>
+  <tabTrigger>recb</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

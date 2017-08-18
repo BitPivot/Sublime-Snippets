@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+expect {
+  ${1:ACTION}
+}.${2:TO} change {
+  ${3:SUBJECT}.${4:STATE}
+}.from(${5:OLD}).to(${6:NEW})$0]]></content>
+  <tabTrigger>recft</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>

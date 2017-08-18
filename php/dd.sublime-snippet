@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+echo '<pre>';
+dd(print_r(${1:wtf}));$0
+echo '</pre>';]]></content>
+  <tabTrigger>dd</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

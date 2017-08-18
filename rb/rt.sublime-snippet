@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+respond_to do |f|
+  f.$0
+end]]></content>
+  <tabTrigger>rt</tabTrigger>
+  <scope>source.ruby, source.ruby.rails</scope>
+</snippet>
