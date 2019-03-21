@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+it { is_expected.to validate_presence_of(:${1:ATTRIBUTE}).with_message(:required) }]]></content>
+  <tabTrigger>rvpr</tabTrigger>
+  <scope>source.ruby, source.ruby.rails, source.ruby.rspec</scope>
+</snippet>
